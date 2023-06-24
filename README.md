@@ -63,11 +63,3 @@ To run the library management page locally, follow these steps:
 
  the Node.js server.
 7. Open your web browser and navigate to `http://localhost:3000` to access the library management page.
-
-## Contributing
-
-Contributions to the library management page are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Please adhere to the project's coding standards and follow the existing project structure.
-
-## License
-
-The library management page is open-source and released under the [MIT License](LICENSE). You are free to modify, distribute, and use the code in your own projects.
