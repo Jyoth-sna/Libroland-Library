@@ -62,4 +62,5 @@ To run the library management page locally, follow these steps:
    - In the `backend` directory, run `npm start` to start
 
  the Node.js server.
-7. Open your web browser and navigate to `http://localhost:3000` to access the library management page.
+ 
+ 7. Open your web browser and navigate to `http://localhost:3000` to access the library management page.
