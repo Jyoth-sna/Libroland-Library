@@ -13,6 +13,7 @@ export const makeChartOptions = (index, chartData) => {
         },
         yAxis: {
             labels: {
+                // eslint-disable-next-line no-template-curly-in-string
                 format: index === 1 ? "${value}" : null,
             },
             title: {
@@ -31,6 +32,7 @@ export const makeChartOptions = (index, chartData) => {
                 showInLegend: false,
                 name: index === 1 ? "Price" : "Quantity",
                 data: chartData?.map((item) => (index === 1 ? Number(item.price) : Number(item.quantity))),
+                // eslint-disable-next-line no-template-curly-in-string
                 format: index === 1 ? "${value}" : null,
             },
         ],
